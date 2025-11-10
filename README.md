@@ -1,4 +1,4 @@
-# R4HA Prediction POC - TIER 1 Simplified Data Specification
+# R4HA Prediction POC - Data Specification (MVP)
 
 ## Overview
 This document contains the **15 essential columns** needed to build a working R4HA prediction model with 70-75% accuracy. This is the minimum viable dataset for your Proof of Concept.
