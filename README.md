@@ -1253,5 +1253,4 @@ These **15 TIER 1 columns** provide everything needed for a successful R4HA pred
 **Good enough to:** Demonstrate value, get stakeholder buy-in, plan production deployment
 
 Start simple, prove the concept, then enhance!
-<img width="462" height="690" alt="image" src="https://github.com/user-attachments/assets/843abb0c-bf25-49cc-81c4-8d7eac96f9ea" />
 
