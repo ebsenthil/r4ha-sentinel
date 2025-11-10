@@ -1,7 +1,7 @@
 # R4HA Prediction POC - Data Specification (MVP)
 
 ## Overview
-This document contains the **15 essential columns** needed to build a working R4HA prediction model with 70-75% accuracy. This is the minimum viable dataset for your Proof of Concept.
+This document contains the **15 essential columns** needed to build a working R4HA prediction model with 70-75% accuracy. This is the minimum viable dataset for the Proof of Concept.
 
 **Expected Accuracy:** 70-75%  
 **Implementation Time:** 2-3 weeks  
