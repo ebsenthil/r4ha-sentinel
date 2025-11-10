@@ -1,6 +1,9 @@
 """
 R4HA Prediction POC - Synthetic Data Generator
 Generates realistic mainframe MSU consumption data with all 15 TIER 1 features
+# Run the data generator script first
+# python r4ha_data_generator.py
+# This creates: r4ha_synthetic_data.csv
 """
 
 import pandas as pd
