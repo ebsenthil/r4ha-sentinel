@@ -10,7 +10,7 @@ This document contains the **15 essential columns** needed to build a working R4
 
 ---
 
-## Complete TIER 1 Column Specification
+## Column Specification
 
 ### 1. TIMESTAMP
 **Column Name:** `timestamp`  
