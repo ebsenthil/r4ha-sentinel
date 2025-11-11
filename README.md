@@ -10,6 +10,32 @@ This document contains the **15 essential columns** needed to build a working R4
 
 ---
 
+## Summary Table: All 15 Columns
+
+| # | Column | Type | Source | Importance | Purpose |
+|---|--------|------|--------|------------|---------|
+| 1 | timestamp | TIMESTAMP | SMF 70 | Critical | Time alignment |
+| 2 | system_id | VARCHAR(8) | SMF 70 | Critical | System identification |
+| 3 | msu_current | DECIMAL(10,2) | SMF 70 | Critical | Raw MSU data |
+| 4 | r4ha_msu | DECIMAL(10,2) | Calculated | Critical | Current R4HA (input) |
+| 5 | cpu_utilization_pct | DECIMAL(5,2) | SMF 70 | High | Capacity indicator |
+| 6 | r4ha_lag_1h | DECIMAL(10,2) | Calculated | Very High | Recent trend (25-30%) |
+| 7 | r4ha_lag_2h | DECIMAL(10,2) | Calculated | High | Trend confirmation (15-20%) |
+| 8 | msu_lag_1h | DECIMAL(10,2) | Calculated | Medium | Spike detection |
+| 9 | msu_rolling_mean_2h | DECIMAL(10,2) | Calculated | High | Early trend (10-15%) |
+| 10 | msu_rolling_mean_4h | DECIMAL(10,2) | Calculated | Medium | R4HA validation |
+| 11 | hour_of_day | INTEGER | Derived | High | Daily patterns (6-10%) |
+| 12 | day_of_week | INTEGER | Derived | Medium | Weekly patterns (3-5%) |
+| 13 | is_batch_window | BOOLEAN | Schedule | High | Spike context (5-8%) |
+| 14 | batch_jobs_running | INTEGER | SMF 30 | High | Workload driver (8-12%) |
+| 15 | batch_cpu_seconds | DECIMAL(12,2) | SMF 30 | Medium | Intensity measure |
+
+**TARGET VARIABLE (what we predict):**
+- `target = r4ha_msu shifted 16 periods into the future (4 hours ahead)`
+
+---
+---
+
 ## Column Specification
 
 ### 1. TIMESTAMP
