@@ -1,0 +1,19 @@
+{
+  "features": {
+    "msu_current": 1050.0,
+    "r4ha_msu": 1020.0,
+    "cpu_utilization_pct": 92.0,
+    "r4ha_lag_1h": 980.0,
+    "r4ha_lag_2h": 950.0,
+    "msu_lag_1h": 1030.0,
+    "msu_rolling_mean_2h": 1040.0,
+    "msu_rolling_mean_4h": 1000.0,
+    "hour_of_day": 2,
+    "day_of_week": 1,
+    "is_batch_window": 1,
+    "batch_jobs_running": 55,
+    "batch_cpu_seconds": 650.0
+  },
+  "threshold": 1000,
+  "description": "Critical - Month-end batch spike"
+}

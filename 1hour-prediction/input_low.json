@@ -1,0 +1,19 @@
+{
+  "features": {
+    "msu_current": 420.0,
+    "r4ha_msu": 410.0,
+    "cpu_utilization_pct": 38.0,
+    "r4ha_lag_1h": 400.0,
+    "r4ha_lag_2h": 395.0,
+    "msu_lag_1h": 415.0,
+    "msu_rolling_mean_2h": 418.0,
+    "msu_rolling_mean_4h": 408.0,
+    "hour_of_day": 15,
+    "day_of_week": 7,
+    "is_batch_window": 0,
+    "batch_jobs_running": 5,
+    "batch_cpu_seconds": 35.0
+  },
+  "threshold": 1000,
+  "description": "Low workload - Sunday afternoon"
+}

@@ -1,0 +1,19 @@
+{
+  "features": {
+    "msu_current": 980.0,
+    "r4ha_msu": 950.0,
+    "cpu_utilization_pct": 85.0,
+    "r4ha_lag_1h": 920.0,
+    "r4ha_lag_2h": 890.0,
+    "msu_lag_1h": 960.0,
+    "msu_rolling_mean_2h": 970.0,
+    "msu_rolling_mean_4h": 940.0,
+    "hour_of_day": 18,
+    "day_of_week": 5,
+    "is_batch_window": 1,
+    "batch_jobs_running": 35,
+    "batch_cpu_seconds": 420.0
+  },
+  "threshold": 1000,
+  "description": "High workload during evening batch"
+}
