@@ -31,7 +31,7 @@ This document contains the **15 essential columns** needed to build a working R4
 | 15 | batch_cpu_seconds | DECIMAL(12,2) | SMF 30 | Medium | Intensity measure |
 
 **TARGET VARIABLE (what we predict):**
-- `target = r4ha_msu shifted 16 periods into the future (4 hours ahead)`
+- `target = r4ha_msu shifted 16 periods into the future (1 hours ahead)`
 
 ---
 ---
