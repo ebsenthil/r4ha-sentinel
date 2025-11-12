@@ -1278,5 +1278,4 @@ These **15 TIER 1 columns** provide everything needed for a successful R4HA pred
 **Expected accuracy:** 70-75%
 **Good enough to:** Demonstrate value, get stakeholder buy-in, plan production deployment
 
-Start simple, prove the concept, then enhance!
 
