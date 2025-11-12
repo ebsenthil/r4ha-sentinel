@@ -26,3 +26,34 @@ Loading R4HA prediction model...
 7. **Explanation**: The prediction aligns with the observed historical trend of increasing R4HA values, though the rate of increase is expected to slow down. This makes sense given the low workload environment typical for a Sunday afternoon, with minimal batch processing activity and moderate CPU utilization. The system is stable and operating efficiently within its capacity limits.
 
 ```
+
+
+
+``` markdown
+% python3 simple_r4ha_agent.py --file input_normal.json  
+Loading R4HA prediction model...
+✓ Model loaded successfully (13 features)
+
+======================================================================
+🤖 R4HA AGENT ANALYZING...
+======================================================================
+
+======================================================================
+📊 R4HA ANALYSIS REPORT
+======================================================================
+1. **Current Situation**: The current R4HA is 730.0 MSU, with a current MSU utilization of 750.0. The system is operating under normal business hours workload conditions.
+
+2. **Historical Trend**: Over the past two hours, the R4HA has been increasing, moving from 710.0 MSU two hours ago to 720.0 MSU one hour ago, and now at 730.0 MSU.
+
+3. **Prediction**: The model predicts that the R4HA will decrease to approximately 706.34 MSU in the next hour.
+
+4. **Trend Analysis**: Historically, the R4HA has been increasing, but the prediction indicates a decreasing trend for the next hour.
+
+5. **Risk Assessment**: LOW. Both the current and predicted R4HA values are well below the threshold of 1000 MSU, and no alerts are triggered.
+
+6. **Immediate Actions**: No immediate actions are necessary as the system is operating within safe limits and is expected to continue doing so.
+
+7. **Explanation**: The prediction of a decreasing R4HA makes sense given the current metrics. The system is not in a batch window, and the workload appears to be stabilizing after a period of increase. The CPU utilization and batch job metrics suggest that the system is handling the workload efficiently, leading to a predicted decrease in R4HA.
+======================================================================
+
+```
