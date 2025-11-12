@@ -1,3 +1,5 @@
+```markdown
+
 % python3 simple_r4ha_agent.py --file input_low.json 
 Loading R4HA prediction model...
 ✓ Model loaded successfully (13 features)
@@ -22,3 +24,5 @@ Loading R4HA prediction model...
 6. **Immediate Actions**: No immediate actions are necessary. Continue monitoring the system to ensure it remains within acceptable performance parameters.
 
 7. **Explanation**: The prediction aligns with the observed historical trend of increasing R4HA values, though the rate of increase is expected to slow down. This makes sense given the low workload environment typical for a Sunday afternoon, with minimal batch processing activity and moderate CPU utilization. The system is stable and operating efficiently within its capacity limits.
+
+```
