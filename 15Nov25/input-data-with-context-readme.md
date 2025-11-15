@@ -1,7 +1,7 @@
 
 
 
-
+### 1. R4HA Prediction Input to Model
 ```
 {
   "timestamp": "2025-01-15 21:30:00",
@@ -27,6 +27,7 @@
   "threshold": 800,
   ---
 ```
+### 2. WLM Context Input to Agent
 ```
   "wlm_context": {
     "source": "SMF Type 72 (Subtype 3)",
@@ -106,9 +107,9 @@
       "resource_group": "PRODUCTION"
     }
   },
-----
-```
 
+```
+### 3. Batch Jobs context to AI Agent
 ```
   
   "active_jobs": {
@@ -204,6 +205,7 @@
   },
 ```
 
+### 4. System Capacity Context to AI Agent
 
 ```
   "system_capacity": {
@@ -236,7 +238,7 @@
     }
   },
 ```
-
+### 5. Batch Schedule Context to AI Agent
 ```
   "batch_schedule": {
     "source": "Job Scheduler (Control-M)",
@@ -273,7 +275,7 @@
     }
   },
 ```
-
+### 6. Historical Context to AI Agent
 ```
   "historical_context": {
     "source": "Historical Analysis (30-day average)",
@@ -295,8 +297,7 @@
   },
 
 ```
-
-
+### 7. Bussiness Context Input to AI Agent
 ```
   
   "business_context": {
