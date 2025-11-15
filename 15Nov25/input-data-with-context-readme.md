@@ -25,7 +25,9 @@
   },
   
   "threshold": 800,
-  
+  ---
+```
+```
   "wlm_context": {
     "source": "SMF Type 72 (Subtype 3)",
     "collection_time": "2025-01-15 14:30:00",
@@ -104,6 +106,10 @@
       "resource_group": "PRODUCTION"
     }
   },
+----
+```
+
+```
   
   "active_jobs": {
     "source": "SMF Type 30 (Active Jobs)",
@@ -196,7 +202,10 @@
       "potential_savings_cancel": 60.0
     }
   },
-  
+```
+
+
+```
   "system_capacity": {
     "source": "SMF Type 70 (System Data)",
     "collection_time": "2025-01-15 14:30:00",
@@ -226,7 +235,9 @@
       "emergency_level": 1100
     }
   },
-  
+```
+
+```
   "batch_schedule": {
     "source": "Job Scheduler (Control-M)",
     "collection_time": "2025-01-15 14:30:00",
@@ -261,7 +272,9 @@
       "critical_jobs_count": 1
     }
   },
-  
+```
+
+```
   "historical_context": {
     "source": "Historical Analysis (30-day average)",
     "typical_for_this_time": {
@@ -280,6 +293,11 @@
       "volatility": "moderate"
     }
   },
+
+```
+
+
+```
   
   "business_context": {
     "month_end": false,
